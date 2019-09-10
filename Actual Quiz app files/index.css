@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Anton', sans-serif;
+    background-color: white;
+    background: url(images/avenger-hulk-hero-4340712_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+  
+  }
+  
+  ul li {
+    display: inline;
+    padding: 20px;
+    background-color: rgba(23, 21, 22,.5);
+  }
+  .score-questions {
+    text-align: right;
+    display: inline;
+    list-style: none;
+    margin: 50px;
+    padding: 50px;
+    color: white;
+  }
+  h1 {
+    text-align: center;
+    margin-top: 60px;
+    color: black;
+  }
+  h2 {
+    text-align: center;
+  }
+  
+  form {
+    padding: 20px;
+    height: 500px;
+    /* width: 250px; */
+  }
+  
+  label {
+    display: block;
+  }
+  
+  button {
+      display: flex;
+      padding: 20px;
+      border: none;
+      background-color:black;
+      color: #ffffff;
+      font-size: 18px;
+      font-family: Anton;
+      text-transform: uppercase;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      margin-top: 40px;
+  
+    
+  }
+  .zeroButton {
+    padding: 20px;
+      border: none;
+      background-color: lightgreen;
+      color: #363946;
+      font-size: 18px;
+      text-transform: uppercase;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      margin-top: 10px;
+      width: 100%;
+      text-align: left;
+    
+  }
+  
+  main div {
+      margin: 0 auto;
+  }
+  label:nth-child(1) {
+      background-color: rgba(104, 175, 56, 0.842)
+  }
+  label:nth-child(2) {
+      background-color: rgb(230, 20, 100)
+  }
+  label:nth-child(3) {
+      background-color: #3894AF
+  }
+  label:nth-child(4) {
+      background-color: #38A9AF
+  }
+  label {
+      padding: 20px;
+      margin-bottom: 10px;
+      display: flex;
+      color: black;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: all 0.3s ease-out;
+      line-height: 22px;
+    
+    
+  }
+  label:hover, label:focus {
+      background-color: white;
+  }
+  fieldset {
+      border: none;
+  }
+  .questionResponseForm {
+    display: none;
+    width: 50%;
+  }
+  input {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      border-radius: 30%;
+      width: 16px;
+      height: 15px;
+      border: 2px solid black;
+      transition: 0.2s all linear;
+      outline: none;
+      margin-right: 5px;
+      position: relative;
+      top: 2px;
+  }
+  input:checked {
+      border: 8px solid white;
+      
+  }
+  
+  input[type=radio] {
+      flex: 0 0 auto;
+      margin-right: 10px;
+  }
+  @media screen and (max-width: 1190px) {
+      .questionResponseForm,
+      .quizStart {
+          width: 80%;
+          margin-bottom: 100px
+      }
+  }
+  .btn-good-luck{
+      display: block;
+      margin: 20px auto;
+  }
+  .submitButton,.nextButton,.restartButton{
+    width: 100%;
+    padding-left: 46%;
+  }
+
+  .correctFeedback{
+    text-align: center;
+    background-color: rgba(122, 213, 79,.5);
+    color: white;
+    font-size: 27px;
+    font-family: sans-serif;
+    padding: 25px;
+    border: 1px solid black;
+  }
+  .incorrectFeedback{
+    text-align: center;
+    background-color: rgba(227, 41, 41,.5);
+    color: white;
+    font-size: 27px;
+    font-family: sans-serif;
+    padding: 25px;
+    border: 1px solid black;
+  }
+  .icon img{
+      width: 50px;
+  }
