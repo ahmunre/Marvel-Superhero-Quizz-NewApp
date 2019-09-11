@@ -79,7 +79,7 @@ function questionGenerator() {
   if (questionNumber < STORE.length) {
     return `<div class="questionZero ${questionNumber}">
           
-        <h2>${STORE[questionNumber].question}{</h2>
+        <h2>${STORE[questionNumber].question}</h2>
       <form>
         <fieldset>
         <label class="answerOptions">
